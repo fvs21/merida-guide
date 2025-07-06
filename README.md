@@ -1,5 +1,5 @@
 ---
-title: Gradio Chatbot
+title: Merida Guide
 emoji: 💬
 colorFrom: yellow
 colorTo: purple
