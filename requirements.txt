@@ -1,8 +1,8 @@
 huggingface-hub
 gradio
 python-dotenv
-langchain==0.3.25
-langchain-core==0.3.59
+langchain
+langchain-core
 langchain-chroma
 langchain-huggingface
 langgraph 
