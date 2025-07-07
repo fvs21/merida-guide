@@ -39,12 +39,11 @@ def load_data() -> List[Document]:
             urls = query
 
         if len(urls) == 1:
-            place_data = f"{name} is located in here {urls[0]}"
+            place_data = f"People often ask how to get to {name}. Here is its known address/location: {urls[0]}"
         else:
             locations = "\n".join(f"{loc['location']}: {loc['url']} - " for loc in urls)
-            place_data = f"{name} has multiple locations, you can find them here: {locations} "
+            place_data = f"{name} has multiple locations. People often ask how to get to {name}. Here are its known addresses: {locations} "
             
-        print(place_data)
         document = Document(
             page_content=place_data,
             id=str(id)
