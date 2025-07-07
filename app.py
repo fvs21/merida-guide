@@ -1,6 +1,7 @@
 import gradio as gr
 from dotenv import load_dotenv
 import os
+from huggingface_hub import login
 
 import vector, retrieval
 
@@ -48,5 +49,6 @@ def gradio_ui():
     demo.launch()
 
 if __name__ == "__main__":
+    login(HUGGING_FACE_TOKEN)
     initialize_llm()
     gradio_ui()
