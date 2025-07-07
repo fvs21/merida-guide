@@ -1,8 +1,10 @@
 from typing import List, Tuple
 from langchain_chroma import Chroma
-from langchain_huggingface import HuggingFacePipeline
+from langchain_huggingface import HuggingFaceEndpoint
 from langchain_core.prompts import PromptTemplate
-from langchain.chains.conversational_retrieval.base import ConversationalRetrievalChain, BaseConversationalRetrievalChain
+from langchain.chains.retrieval import create_retrieval_chain
+from langchain.chains.combine_documents import create_stuff_documents_chain
+from langchain_core.runnables.base import Runnable
 
 PROMPT_TEMPLATE = '''
 You are a tourist guide/assistant for the city of Mérida, Yucatán, México. Use the following pieces of context to answer the question at the end.
@@ -12,15 +14,14 @@ Question: {question}
 Context: {context}
 '''
 
-def initialize_llm_qa_chain(model: str, temperature: int, max_tokens: int, top_k: int, vector_db: Chroma, api_token: str) -> BaseConversationalRetrievalChain:
-    llm = HuggingFacePipeline.from_model_id(
+def initialize_llm_qa_chain(model: str, temperature: int, max_tokens: int, top_k: int, vector_db: Chroma, api_token: str) -> Runnable:
+    llm = HuggingFaceEndpoint(
         model_id=model,
         task="text-generation",
-        pipeline_kwargs={
-            "max_new_tokens": max_tokens,
-            "top_k": top_k,
-            "temperature": temperature,
-        }
+        max_new_tokens = max_tokens,
+        top_k = top_k,
+        temperature = temperature,
+        huggingfacehub_api_token=api_token
     )
 
     retriever = vector_db.as_retriever()
@@ -29,12 +30,14 @@ def initialize_llm_qa_chain(model: str, temperature: int, max_tokens: int, top_k
         template=PROMPT_TEMPLATE, input_variables=["question", "context"]
     )
 
-    qa_chain = ConversationalRetrievalChain.from_llm(
+    combine_docs_chain = create_stuff_documents_chain(
         llm=llm,
+        prompt=rag_prompt
+    )
+
+    qa_chain = create_retrieval_chain(
         retriever=retriever,
-        chain_type="stuff",
-        verbose=False,
-        combine_docs_chain_kwargs={"prompt": rag_prompt}
+        combine_docs_chain=combine_docs_chain,
     )
 
     return qa_chain
@@ -48,7 +51,7 @@ def format_chat_history(history) -> List[str]:
 
     return formatted
 
-def invoke_qa_chain(qa_chain: BaseConversationalRetrievalChain, message: str, chat_history: List[Tuple[str, str]]) -> str:
+def invoke_qa_chain(qa_chain: Runnable, message: str, chat_history: List[Tuple[str, str]]) -> str:
     formatted_chat_history = format_chat_history(chat_history)
 
     response = qa_chain.invoke(
