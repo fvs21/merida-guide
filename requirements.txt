@@ -5,6 +5,4 @@ langchain
 langchain-core
 langchain-chroma
 langchain-huggingface
-langgraph 
-langsmith
 sentence-transformers
