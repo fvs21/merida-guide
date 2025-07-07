@@ -16,7 +16,7 @@ Context: {context}
 
 def initialize_llm_qa_chain(model: str, temperature: int, max_tokens: int, top_k: int, vector_db: Chroma, api_token: str) -> Runnable:
     llm = HuggingFaceEndpoint(
-        model_id=model,
+        repo_id=model,
         task="text-generation",
         max_new_tokens = max_tokens,
         top_k = top_k,
