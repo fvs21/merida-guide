@@ -46,11 +46,8 @@ def initialize_llm_qa_chain(model: str, temperature: int, max_tokens: int, top_k
 def format_chat_history(history) -> List[str]:
     formatted = []
 
-    print(history)
-
     for message in history:
-        formatted.append("User: ", message[0])
-        formatted.append("Assistant: ", message[1])
+        formatted.append(message['role'] + ": " + message['content'])
 
     return formatted
 
