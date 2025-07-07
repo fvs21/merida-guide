@@ -23,7 +23,7 @@ def initialize_llm():
         model=MODEL_NAME,
         temperature=0.7,
         max_tokens=250,
-        top_k=0.9,
+        top_k=3,
         vector_db=vector_db,
         api_token=HUGGING_FACE_TOKEN
     )
@@ -32,7 +32,6 @@ def respond(
     message,
     history: list[tuple[str, str]]
 ):
-    
     answer = retrieval.invoke_qa_chain(
         qa_chain,
         message,
@@ -43,12 +42,11 @@ def respond(
 
 
 def gradio_ui():
-    initialize_llm()
-
     with gr.Blocks() as demo:
         gr.ChatInterface(fn=respond, type="messages")
 
     demo.launch()
 
 if __name__ == "__main__":
+    initialize_llm()
     gradio_ui()

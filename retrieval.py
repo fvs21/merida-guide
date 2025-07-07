@@ -16,7 +16,7 @@ def initialize_llm_qa_chain(model: str, temperature: int, max_tokens: int, top_k
     llm = HuggingFaceEndpoint(
         repo_id=model,
         max_new_tokens=max_tokens,
-        top_k=3,
+        top_k=top_k,
         temperature=temperature,
         task="text-generation",
         provider="hf-inference",
@@ -30,7 +30,7 @@ def initialize_llm_qa_chain(model: str, temperature: int, max_tokens: int, top_k
     )
 
     qa_chain = ConversationalRetrievalChain.from_llm(
-        llm,
+        llm=llm,
         retriever=retriever,
         chain_type="stuff",
         verbose=False,
