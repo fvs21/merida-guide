@@ -10,7 +10,7 @@ load_dotenv()
 HUGGING_FACE_TOKEN = os.environ.get("HUGGINGFACEHUB_API_TOKEN")
 DB_LOCATION = "./chroma_db"
 ADD_DOCUMENTS = not os.path.exists(DB_LOCATION)
-MODEL_NAME = "meta-llama/Llama-3.1-8B-Instruct"
+MODEL_NAME = "meta-llama/Llama-3.2-3B-Instruct"
 
 def initialize_llm():
     vector_db = vector.create_vector_database(DB_LOCATION)
