@@ -44,9 +44,7 @@ def gradio_ui():
     )
 
     with gr.Blocks() as demo:
-        chatbot = gr.Chatbot("Your personal Merida tour guide")
-
-        gr.ChatInterface(fn=respond, additional_inputs=[qa_chain], chatbot=chatbot)
+        gr.ChatInterface(fn=respond, type="messages", additional_inputs=[qa_chain])
 
     demo.launch()
 
