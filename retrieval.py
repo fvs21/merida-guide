@@ -19,6 +19,7 @@ def initialize_llm_qa_chain(model: str, temperature: int, max_tokens: int, top_k
         top_k=3,
         temperature=temperature,
         task="text-generation",
+        provider="hf-inference",
         huggingfacehub_api_token=api_token
     )
 
