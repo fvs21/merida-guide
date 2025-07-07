@@ -18,7 +18,7 @@ def initialize_llm_qa_chain(model: str, temperature: int, max_tokens: int, top_k
         max_new_tokens=max_tokens,
         top_k=top_k,
         temperature=temperature,
-        task="text-generation",
+        task="conversational",
         provider="nebius",
         huggingfacehub_api_token=api_token
     )
