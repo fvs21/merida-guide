@@ -1,48 +1,54 @@
 import gradio as gr
-from huggingface_hub import InferenceClient
+from dotenv import load_dotenv
+import os
 
-"""
-For more information on `huggingface_hub` Inference API support, please check the docs: https://huggingface.co/docs/huggingface_hub/v0.22.2/en/guides/inference
-"""
-client = InferenceClient("HuggingFaceH4/zephyr-7b-beta")
+import vector, retrieval
+
+load_dotenv()
+
+HUGGING_FACE_TOKEN = os.environ.get("HUGGING_FACE_TOKEN")
+DB_LOCATION = "./chroma_db"
+ADD_DOCUMENTS = not os.path.exists(DB_LOCATION)
+MODEL_NAME = "meta-llama/Llama-3.2-3B-Instruct"
 
 def respond(
     message,
     history: list[tuple[str, str]],
-    system_message,
-    max_tokens,
-    temperature,
-    top_p,
+    qa_chain
 ):
-    messages = [{"role": "system", "content": system_message}]
+    
+    answer = retrieval.invoke_qa_chain(
+        qa_chain,
+        message,
+        history
+    )
 
-    for val in history:
-        if val[0]:
-            messages.append({"role": "user", "content": val[0]})
-        if val[1]:
-            messages.append({"role": "assistant", "content": val[1]})
-
-    messages.append({"role": "user", "content": message})
-
-    response = ""
-
-    for message in client.chat_completion(
-        messages,
-        max_tokens=max_tokens,
-        stream=True,
-        temperature=temperature,
-        top_p=top_p,
-    ):
-        token = message.choices[0].delta.content
-
-        response += token
-        yield response
+    return answer
 
 
-"""
-For information on how to customize the ChatInterface, peruse the gradio docs: https://www.gradio.app/docs/chatinterface
-"""
-demo = gr.ChatInterface(respond)
+
+def gradio_ui():
+    vector_db = vector.create_vector_database(DB_LOCATION)
+
+    if ADD_DOCUMENTS:
+        documents = vector.load_data()
+        vector_db.add_documents(documents)
+
+    qa_chain = retrieval.initialize_llm(
+        model=MODEL_NAME,
+        temperature=0.7,
+        max_tokens=250,
+        top_k=0.9,
+        vector_db=vector_db,
+        api_token=HUGGING_FACE_TOKEN
+    )
+
+    with gr.Blocks() as demo:
+        chatbot = gr.Chatbot("Your personal Merida tour guide")
+
+        gr.ChatInterface(fn=respond, additional_inputs=[qa_chain], chatbot=chatbot)
+
+    demo.launch()
 
 if __name__ == "__main__":
-    demo.launch()
+    gradio_ui()

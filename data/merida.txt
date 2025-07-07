@@ -1,0 +1,253 @@
+Section: Yucatan food
+Chunk ID: 1
+Cochinita pibil is a traditional Yucatecan dish made with pork marinated in achiote and sour orange juice, wrapped in banana leaves, and slow-roasted in an underground oven. It is one of the most iconic foods of the region. In Mérida, you can enjoy excellent cochinita at restaurants like La Chaya Maya, which is very popular among tourists, and La Roka, which is especially recommended for traditional breakfast options.
+
+
+
+Section: Yucatan food
+Chunk ID: 2
+Panuchos and salbutes are traditional Yucatecan snacks made with fried corn tortillas. Panuchos are filled with refried black beans, while salbutes are not. Both are topped with shredded meat (often chicken or cochinita), lettuce, pickled red onions, and salsa. One of the best places to try authentic versions of these dishes in Mérida is La Rosita.
+
+
+
+Section: Yucatan food
+Chunk ID: 3
+Some of the most essential dishes to try in Yucatecan cuisine include cochinita pibil, roasted pork (lechón al horno), relleno negro (a rich black turkey or pork stew), salbutes, and panuchos. These dishes are known for their bold flavors, use of native ingredients like achiote, and traditional cooking techniques. They offer a deep and delicious introduction to the food culture of the region.
+
+
+
+Section: Breakfast
+Chunk ID: 4
+La Libertad is one of the best spots in Mérida for a diverse and satisfying breakfast. The menu includes options such as hotcakes, chilaquiles, breakfast burritos, and French toast. It is especially appreciated for its excellent price-to-value ratio, making it a popular choice among locals and students alike.
+
+
+
+Section: Breakfast
+Chunk ID: 5
+In Mérida, a typical breakfast might include tortas de cochinita — soft rolls filled with slow-roasted pork and pickled onions. While cochinita is often associated with lunch, it is also commonly eaten in the morning. Traditional Mexican breakfast options such as chilaquiles, eggs with salsa, and tamales are also widely available across the city.
+
+
+Section: Late night food
+Chunk ID: 6
+La Gibba is one of the most popular late-night food spots in Mérida, known for its delicious Arabic-style tacos served in pita bread. The quality is consistently good, and the prices are very affordable. It typically stays open until around 1:00 AM, making it a favorite among people looking for a satisfying meal after a night out.
+
+
+
+Section: Late night food
+Chunk ID: 7
+Besides La Gibba, another reliable option for late-night Mexican tacos is El Ñero. It is known for its variety of tacos and fast service, especially during late hours. Both La Gibba and El Ñero are favored by locals for being affordable and open past midnight.
+
+
+
+Section: Late night food
+Chunk ID: 8
+Tacos are the most common food consumed late at night in Mérida. Whether it's classic Mexican tacos or Arabic-style tacos, they are a go-to choice for locals and visitors after midnight, especially following social events or nights out at clubs and bars.
+
+
+
+Section: Transportation
+Chunk ID: 9
+The most common ways to get around Mérida are by using Uber or the local public transportation system called Va y Ven. Uber is widely available, reliable, and easy to use for both locals and tourists. Va y Ven is a modern bus network that serves most of the city at a very low cost, making it a good alternative for budget-conscious travelers.
+
+
+
+Section: Transportation
+Chunk ID: 10
+Mérida is partially friendly to bikes and scooters, particularly in the city center where the infrastructure is more supportive. Downtown areas have better sidewalks, bike lanes, and more compact distances, making it easier to move around safely. However, in outer neighborhoods and busy roads, biking or using scooters can be more difficult and less safe due to limited infrastructure and higher traffic.
+
+
+
+Section: Transportation
+Chunk ID: 11
+Uber is the most cost-effective and convenient way to get from Mérida International Airport to the city. However, due to ongoing conflicts with airport taxi services, Uber drivers may not be allowed to pick up directly at the terminal entrance. Travelers typically arrange to meet their Uber driver just outside the airport in a designated pickup area on the street. Despite this minor inconvenience, Uber remains the preferred option for most visitors due to its lower prices and reliability.
+
+
+
+Section: Transportation
+Chunk ID: 12
+Va y Ven is Mérida’s modern public transportation system. It consists of clean, air-conditioned buses that run on structured routes throughout the city. It offers a more organized and efficient alternative to traditional combis or colectivos, and has become increasingly popular among students and residents for its affordability and coverage.
+
+
+
+Section: Transportation
+Chunk ID: 13
+To get a Va y Ven student card in Mérida, you must visit a designated registration module and present an official ID, proof of residence, and a valid school enrollment document. Once approved, you’ll receive a rechargeable smart card that offers discounted fares on public buses. Modules can be found at locations such as Plaza Las Américas, Plaza Fiesta, Plaza Oriente, Colonia México, Avenida Reforma, and Los Paseos Mérida.
+
+
+
+Section: Nightlife
+Chunk ID: 14
+Two of the most popular nightclubs in Mérida are Feder and Classico. Feder is currently the trendiest option, especially among younger crowds, and is known for playing reggaetón and throwing high-energy parties. Classico offers a more traditional clubbing experience with dancing and mainstream music. Both clubs tend to be packed on weekends and are common choices for birthdays, group events, and student nightlife.
+
+
+
+Section: Nightlife
+Chunk ID: 15
+During the summer months, Mérida’s nightlife scene shifts toward the coast. Feder opens a beach version of its club in Progreso, attracting large crowds looking for a party atmosphere by the sea. This beach edition of the club offers the same music and energy but with the added bonus of ocean breeze and beachfront views, making it the primary nightlife destination during the summer.
+
+
+
+Section: Nightlife
+Chunk ID: 16
+During the summer months, Mérida’s nightlife scene shifts toward the coast. Feder and Classico opens a beach version of its club in Progreso, attracting large crowds looking for a party atmosphere by the sea. This beach edition of the club offers the same music and energy but with the added bonus of ocean breeze and beachfront views, making it the primary nightlife destination during the summer.
+
+
+
+Section: Nightlife
+Chunk ID: 17
+Mérida offers several great options for a more laid-back night out. Tigre Blanco and Flamel are popular choices for quality drinks and a good atmosphere. Tigre Blanco is known for its casual yet lively vibe, often with good music and a fun crowd. Flamel offers a more elegant setting with creative, mixologist-level cocktails. For budget-friendly fun, Cotorritos is a local favorite. El Catrín and Pipiripau, located downtown, are also excellent for drinks and conversation in a more social atmosphere.
+
+
+
+Section: Healthcare
+Chunk ID: 18
+The top private hospitals in Mérida are El Faro del Mayab and Star Médica. Both facilities are highly regarded for their modern infrastructure, professional medical staff, and fast, reliable service. These hospitals are the preferred choice for urgent or serious medical care, especially when compared to public hospitals, which are often overcrowded and slower to respond in emergencies.
+
+
+
+Section: Healthcare
+Chunk ID: 19
+For quick and low-cost medical consultations, many residents and visitors go to pharmacy-based clinics. Chains such as Dr. Simi, Farmacias del Ahorro, and Farmacias Yza usually have in-house doctors who offer basic consultations at very affordable prices. These clinics are ideal for minor health concerns or when a prescription is needed without the wait and expense of a full hospital visit.
+
+
+
+Section: Healthcare
+Chunk ID: 20
+Mérida has several pharmacy chains that offer 24/7 service, including Dr. Simi, Farmacias del Ahorro, and Farmacias Yza. These pharmacies are reliable options for accessing medications and basic health products at any hour, providing peace of mind for those who may need assistance late at night.
+
+
+
+Section: Weather
+Chunk ID: 21
+Mérida has a hot and humid climate, with the most intense heat typically occurring in May. Temperatures can become extreme, especially during midday, and the humidity adds to the discomfort. Visitors should be prepared for consistent high temperatures throughout much of the year.
+
+
+
+Section: Weather
+Chunk ID: 22
+To manage Mérida's intense heat, it’s important to stay hydrated, wear lightweight and breathable clothing, and use sunscreen if spending time outdoors. It’s also helpful to plan indoor activities during peak heat hours, usually between 1:00 PM and 4:00 PM. Taking advantage of air-conditioned spaces is a key strategy for staying comfortable and safe in the city’s climate.
+
+
+
+Section: Where to stay
+Chunk ID: 23
+Mérida offers a variety of lodging options including traditional hotels and short-term rentals like Airbnbs. Both are widely available throughout the city and can suit different types of travelers, from tourists looking for convenience to students or remote workers seeking longer stays.
+
+
+
+Section: Where to stay
+Chunk ID: 24
+Hotels in Mérida are typically the safest and most convenient option. They are easy to book, often located in central areas, and provide reliable services. Airbnbs, on the other hand, can be ideal for longer stays or travelers looking for a more local experience. However, it’s important to check reviews and research the neighborhood to ensure safety and comfort before booking.
+
+
+
+Section: Shopping
+Chunk ID: 25
+The most popular shopping destinations in Mérida are the city’s main malls: Altabrisa, La Isla, and La Gran Plaza. These malls feature a wide range of retail stores, from clothing to electronics, along with numerous dining options. They also serve as social spaces for locals to hang out, especially during the hot season thanks to their air-conditioned environments.
+
+
+
+Section: Shopping
+Chunk ID: 26
+For school and office supplies in Mérida, the most reliable stores are Office Max and Office Depot. They offer everything from notebooks and stationery to printer paper and folders. For tech products such as laptops, chargers, or accessories, Amazon México is a preferred option due to its wide variety and fast delivery service.
+
+
+
+Section: Shopping
+Chunk ID: 27
+Document printing services are available at Impress, a shop known for quick and efficient printing. You can also print at Office Max and Office Depot, which offer additional convenience by allowing you to purchase school or office supplies at the same time.
+
+
+
+Section: Budgeting
+Chunk ID: 28
+Students in Mérida can save money by avoiding convenience stores like Oxxo, which tend to have higher prices. Instead, shopping at places like Farmacias Guadalajara can help reduce spending on daily essentials. Being mindful of where and how often you spend also plays a big role in keeping costs low.
+
+
+
+Section: Budgeting
+Chunk ID: 29
+One of the best ways for students to save on transportation is by getting the Va y Ven student card, which offers discounted fares on public buses. To get one, you need to visit a registration module with your official ID, proof of address, and proof of school enrollment. This card helps students commute affordably around the city.
+
+
+
+Section: Usefull apps
+Chunk ID: 30
+For getting around Mérida, Uber is the most widely used and reliable transportation app. For food delivery, Rappi is the preferred choice, offering access to a wide range of local restaurants. These apps are essential for daily convenience, whether for commuting or ordering meals.
+
+
+
+Section: Usefull apps
+Chunk ID: 31
+Instagram is a valuable tool for discovering popular places to eat in Mérida. One of the most useful accounts to follow is @siseantoja, which regularly features well-rated local spots, hidden gems, and trending dishes across the city. It’s a favorite among foodies and locals alike.
+
+
+
+Section: Safety tips
+Chunk ID: 32
+Mérida is widely regarded as the safest city in Mexico. It has very low crime rates and a peaceful atmosphere, making it a comfortable destination for both residents and tourists. The city is known for its calm vibe and sense of security, even during nighttime.
+
+
+
+Section: Safety tips
+Chunk ID: 33
+While Mérida is generally safe, visitors should still take basic precautions. Avoid walking alone in dark or isolated areas at night, keep personal belongings secure in public spaces, and remain aware of your surroundings — especially in unfamiliar neighborhoods. These common-sense practices are usually sufficient to stay safe.
+
+
+
+Section: Safety tips
+Chunk ID: 34
+When using Uber, it's a good idea to share your trip details with someone you trust. Although the service is reliable in Mérida, coordinating pickups in well-lit areas and avoiding long waits outside is advisable, especially at night. Staying alert and choosing central pickup points helps ensure a safe experience.
+
+
+
+Section: lunch
+Chunk ID: 35
+Mérida offers a variety of lunch options including La Rueda, Mítica, and Taquitos PM. La Rueda is ideal for hearty Argentine-style grilled meats. Mítica is a trendy spot popular for its gourmet burgers, offering a modern atmosphere. Taquitos PM is a more upscale taquería, known for its quality and flavor — a pricier choice, but highly rated for lunch.
+
+
+
+Section: lunch
+Chunk ID: 36
+For lunch, grilled meat plates at La Rueda, gourmet burgers at Mítica, and high-quality tacos at Taquitos PM are standout choices. Each place offers generous portions and is known for delivering consistent flavor and presentation.
+
+
+
+Section: lunch
+Chunk ID: 37
+While La Rueda, Mítica, and Taquitos PM are not the most budget-friendly restaurants, they are popular among students for occasional quality lunches. Taquitos PM is more expensive, but often chosen for its exceptional food. For everyday savings, mall food courts or local eateries are better suited.
+
+
+
+Section: Dinner
+Chunk ID: 38
+Mérida offers several excellent options for dinner, including Izakaya Sushi and Hey Joe. Izakaya Sushi is known for its modern Japanese-style dining and trendy atmosphere, popular among students and young adults. Hey Joe is an American-style burger and beer restaurant with a casual vibe, live music, and generous portions — great for relaxed group dinners or casual nights out.
+
+
+
+Section: Dinner
+Chunk ID: 39
+At Izakaya Sushi, dinner features Japanese-inspired dishes with fresh ingredients and elegant presentation. Hey Joe is known for American comfort food such as burgers and fries, but it is especially popular for its chili, which is one of its standout dishes. The restaurant often pairs meals with craft beers and live music in the evenings.
+
+
+
+Section: Dinner
+Chunk ID: 40
+For casual but high-quality dinners in Mérida, both Izakaya Sushi and Hey Joe are strong options. Izakaya offers a relaxed yet refined experience, while Hey Joe delivers hearty meals in a lively and informal setting. Both are popular with students and weekend diners.
+
+
+
+Section: Sweets
+Chunk ID: 41
+Tere Cazola is the heart of dessert culture in Mérida — a beloved local bakery famous for its cakes, pastries, and cheesecakes, often brought as gifts or enjoyed at family gatherings.
+
+
+
+Section: Sweets
+Chunk ID: 42
+Traditional Yucatecan desserts include marquesitas, which are crispy rolled wafers filled with Nutella, condensed milk, or cheese. These are commonly sold by street vendors in the evenings around parks and plazas. They're one of the most iconic street desserts in the region and a must-try for visitors.
+
+
+Section: Breakfast
+Chunk ID: 43
+La Roka is a local breakfast spot in Mérida known for its hearty tortas filled with Yucatecan specialties like cochinita pibil and lechón. It’s a popular place for a savory, filling start to the day, especially among locals who enjoy traditional flavors in a casual setting. The portions are generous and the food is typically served fast, making it a convenient morning option.
