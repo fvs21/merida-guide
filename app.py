@@ -48,6 +48,7 @@ def gradio_ui():
 
     demo.launch()
 
+
 if __name__ == "__main__":
     login(HUGGING_FACE_TOKEN)
     initialize_llm()
