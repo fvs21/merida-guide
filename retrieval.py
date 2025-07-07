@@ -43,19 +43,21 @@ def initialize_llm_qa_chain(model: str, temperature: int, max_tokens: int, top_k
 
     return qa_chain
 
-def format_chat_history(history) -> List[str]:
+def format_message(history, message) -> List[str]:
     formatted = []
 
     for message in history:
-        formatted.append(message['role'] + ": " + message['content'])
+        formatted.append({"role": message["role"], "content": message["content"]})
+
+    formatted.append({"role": "user", "content": message})
 
     return formatted
 
 def invoke_qa_chain(qa_chain: Runnable, message: str, chat_history: List[Tuple[str, str]]) -> str:
-    formatted_chat_history = format_chat_history(chat_history)
+    formatted_message = format_message(chat_history, message)
 
     response = qa_chain.invoke(
-        {"question": message, "chat_history": formatted_chat_history, "input": message}
+        {"question": formatted_message, "input": formatted_message}
     )
 
     answer = response["answer"]

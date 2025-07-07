@@ -43,7 +43,7 @@ def respond(
 
 
 def gradio_ui():
-    with gr.Blocks() as demo:
+    with gr.Blocks(fill_height=True) as demo:
         gr.ChatInterface(fn=respond, type="messages", fill_height=True)
 
     demo.launch()
