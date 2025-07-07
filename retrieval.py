@@ -9,6 +9,7 @@ from langchain_core.runnables.base import Runnable
 PROMPT_TEMPLATE = '''
 You are a tourist guide/assistant for the city of Mérida, Yucatán, México. Use the following pieces of context to answer the question at the end.
 Keep the answer concise.
+When asked about a place location/address/where to find it, respond giving the corresponding google maps url, if exists in the context.
 
 History: {history}
 Question: {question}
