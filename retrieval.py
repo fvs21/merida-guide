@@ -10,6 +10,7 @@ PROMPT_TEMPLATE = '''
 You are a tourist guide/assistant for the city of Mérida, Yucatán, México. Use the following pieces of context to answer the question at the end.
 Keep the answer concise.
 
+History: {history}
 Question: {question}
 Context: {context}
 '''
@@ -28,7 +29,7 @@ def initialize_llm_qa_chain(model: str, temperature: int, max_tokens: int, top_k
     retriever = vector_db.as_retriever()
 
     rag_prompt = PromptTemplate(
-        template=PROMPT_TEMPLATE, input_variables=["question", "context"]
+        template=PROMPT_TEMPLATE, input_variables=["question", "context", "history"]
     )
 
     combine_docs_chain = create_stuff_documents_chain(
@@ -38,26 +39,21 @@ def initialize_llm_qa_chain(model: str, temperature: int, max_tokens: int, top_k
 
     qa_chain = create_retrieval_chain(
         retriever=retriever,
-        combine_docs_chain=combine_docs_chain,
+        combine_docs_chain=combine_docs_chain
     )
 
     return qa_chain
 
-def format_message(history, message) -> List[str]:
-    formatted = []
-
-    for message in history:
-        formatted.append({"role": message["role"], "content": message["content"]})
-
-    formatted.append({"role": "user", "content": message})
+def format_chat_history(history) -> List[str]:
+    formatted = "".join(f"{mes['role']}:  {mes['content']}\n" for mes in history)
 
     return formatted
 
 def invoke_qa_chain(qa_chain: Runnable, message: str, chat_history: List[Tuple[str, str]]) -> str:
-    formatted_message = format_message(chat_history, message)
+    formatted_history = format_chat_history(chat_history)
 
     response = qa_chain.invoke(
-        {"question": formatted_message, "input": formatted_message}
+        {"question": message, "input": message, "history": formatted_history}
     )
 
     answer = response["answer"]
