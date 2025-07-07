@@ -1,0 +1,231 @@
+[
+  {
+    "name": "La Chaya Maya",
+    "query": "https://maps.app.goo.gl/xFHhtmHqyBqy5gXj9"
+  },
+  {
+    "name": "La Roka",
+    "query": "https://maps.app.goo.gl/gScCLbaFPJ15Az8XA"
+  },
+  {
+    "name": "La Rosita",
+    "query": "https://maps.app.goo.gl/tYRLNuM92QuPar6f6"
+  },
+  {
+    "name": "La Libertad",
+    "query": [
+      {
+        "location": "García Lavín",
+        "url": "https://maps.app.goo.gl/PQrAHpUGHHYJbr2C8"
+      },
+      {
+        "location": "Temozón",
+        "url": "https://maps.app.goo.gl/s5ZvW5Xzzu3ov1G97"
+      },
+      {
+        "location": "Centro",
+        "url": "https://maps.app.goo.gl/s5ZvW5Xzzu3ov1G97"
+      }
+    ]
+  },
+  {
+    "name": "La Gibba",
+    "query": [
+      {
+        "location": "Hacienda",
+        "url": "https://maps.app.goo.gl/dTSAd4sgxtq7BH2C9"
+      },
+      {
+        "location": "Uptown",
+        "url": "https://maps.app.goo.gl/FDGsrGGhfxLeKurt8"
+      },
+      {
+        "location": "Macroplaza",
+        "url": "https://maps.app.goo.gl/FDGsrGGhfxLeKurt8"
+      }
+    ]
+  },
+  {
+    "name": "El Ñero",
+    "query": [
+      {
+        "location": "Altabrisa",
+        "url": "https://maps.app.goo.gl/eMNAE6SZ4j6qJUsm6"
+      },
+      {
+        "location": "Las Américas",
+        "url": "https://maps.app.goo.gl/eMNAE6SZ4j6qJUsm6"
+      },
+      {
+        "location": "Pensiones",
+        "url": "https://maps.app.goo.gl/eMNAE6SZ4j6qJUsm6"
+      }
+    ]
+  },
+  {
+    "name": "Feder",
+    "query": [
+      {
+        "location": "Beach (for summer)",
+        "url": "https://maps.app.goo.gl/aJajoeEdg6vVz7Ge8"
+      },
+      {
+        "location": "Normal",
+        "url": "https://maps.app.goo.gl/sYWxexiVPkVjEc3o6"
+      }
+    ]
+  },
+  {
+    "name": "Classico",
+    "query": [
+      {
+        "location": "Beach (for summer)",
+        "url": "https://maps.app.goo.gl/3rWeXiWPWrPTYKnF7"
+      },
+      {
+        "location": "Normal",
+        "url": "https://maps.app.goo.gl/nM8qY2CRPGbdowRM6"
+      }
+    ]
+  },
+  {
+    "name": "Tigre Blanco",
+    "query": "https://maps.app.goo.gl/GYnpCNyfBAAMKLZs9"
+  },
+  {
+    "name": "Flamel",
+    "query": "https://maps.app.goo.gl/Ki3GJdaKag3LYvDF7"
+  },
+  {
+    "name": "Cotorritos",
+    "query": "https://maps.app.goo.gl/m1uBLUDhH1asHtHA8"
+  },
+  {
+    "name": "El Catrín",
+    "query": "https://maps.app.goo.gl/bw64MeD9mETHyHDTA"
+  },
+  {
+    "name": "Pipiripau",
+    "query": "https://maps.app.goo.gl/UcoZ6fnhoYdGDW6w9"
+  },
+  {
+    "name": "El Faro del Mayab",
+    "query": "https://maps.app.goo.gl/dca2AGiT8a31ajoB6"
+  },
+  {
+    "name": "Star Médica",
+    "query": "https://maps.app.goo.gl/vz2NSVT3PyvpDMh36"
+  },
+  {
+    "name": "Mitica",
+    "query": [
+      {
+        "location": "García Lavín",
+        "url": "https://maps.app.goo.gl/zBmZZKD8tDMhsdgz8"
+      },
+      {
+        "location": "Mérida Norte",
+        "url": "https://maps.app.goo.gl/sYWxexiVPkVjEc3o6"
+      },
+      {
+        "location": "Carretera Progreso",
+        "url": "https://maps.app.goo.gl/sYWxexiVPkVjEc3o6"
+      }
+    ]
+  },
+  {
+    "name": "La Rueda",
+    "query": "https://maps.app.goo.gl/pzHcVSkwcRG3DNQK8"
+  },
+  {
+    "name": "Taquitos PM",
+    "query": [
+      {
+        "location": "García Lavín",
+        "url": "https://maps.app.goo.gl/iEcu8x7Sk9BxgKQz9"
+      },
+      {
+        "location": "Prolongación Montejo",
+        "url": "https://maps.app.goo.gl/t44J4EgxRRnvQep99"
+      },
+      {
+        "location": "Altabrisa",
+        "url": "https://maps.app.goo.gl/UVtdFURa2uR9xwtS6"
+      }
+    ]
+  },
+  {
+    "name": "Izakaya Sushi",
+    "query": "https://maps.app.goo.gl/MREvQF42ttUq6mi4A"
+  },
+  {
+    "name": "Hey Joe",
+    "query": "https://maps.app.goo.gl/bZVQiGLrRZ5RdUVr8"
+  },
+  {
+    "name": "Cimonnis",
+    "query": "https://maps.app.goo.gl/zE72nkDifdwq38qT6"
+  },
+  {
+    "name": "Galletas DR",
+    "query": [
+      {
+        "location": "Temozón",
+        "url": "https://maps.app.goo.gl/DG4jttds71GFd1q8A"
+      },
+      {
+        "location": "Francisco de Montejo",
+        "url": "https://maps.app.goo.gl/wsb8wU48GPxnQDxP8"
+      }
+    ]
+  },
+  {
+    "name": "Impresto",
+    "query": [
+      {
+        "location": "Francisco de Montejo",
+        "url": "https://maps.app.goo.gl/NqA9ffrj4JCVqkw1A"
+      },
+      {
+        "location": "City Center",
+        "url": "https://maps.app.goo.gl/vVy2GzdtUJARssGe6"
+      }
+    ]
+  },
+  {
+    "name": "Office Max",
+    "query": "https://maps.app.goo.gl/VivRMnEv7DBMmFUD9"
+  },
+  {
+    "name": "Office Depot",
+    "query": "https://maps.app.goo.gl/vXdWmG2GgvAuA5Mz9"
+  },
+  {
+    "name": "Plaza Fiesta",
+    "query": "https://maps.app.goo.gl/tCrHwB8aRnxepkTa7"
+  },
+  {
+    "name": "Plaza Oriente",
+    "query": "https://maps.app.goo.gl/wgqpKi696ND6RcKH7"
+  },
+  {
+    "name": "Colonia México",
+    "query": "https://maps.app.goo.gl/GRu386qTVn8cyo869"
+  },
+  {
+    "name": "Avenida Reforma",
+    "query": "https://maps.app.goo.gl/d8d6sc6NoMKetNGM8"
+  },
+  {
+    "name": "Altabrisa",
+    "query": "https://maps.app.goo.gl/GsfwVdsKcZVH4aFq6"
+  },
+  {
+    "name": "La Isla",
+    "query": "https://maps.app.goo.gl/WbR5tC1Z23em2owW7"
+  },
+  {
+    "name": "La Gran Plaza",
+    "query": "https://maps.app.goo.gl/e6SWVbeg5B9sQoWf8"
+  }
+]

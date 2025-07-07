@@ -51,5 +51,6 @@ def gradio_ui():
 
 if __name__ == "__main__":
     login(HUGGING_FACE_TOKEN)
+    vector.load_data()
     initialize_llm()
     gradio_ui()
