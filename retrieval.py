@@ -1,6 +1,6 @@
 from typing import List, Tuple
 from langchain_chroma import Chroma
-from langchain_huggingface import HuggingFaceEndpoint
+from langchain_huggingface import HuggingFaceEndpoint, ChatHuggingFace
 from langchain_core.prompts import PromptTemplate
 from langchain.chains.retrieval import create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
@@ -17,14 +17,13 @@ Context: {context}
 def initialize_llm_qa_chain(model: str, temperature: int, max_tokens: int, top_k: int, vector_db: Chroma, api_token: str) -> Runnable:
     llm = HuggingFaceEndpoint(
         repo_id=model,
-        task="text-generation",
         max_new_tokens = max_tokens,
         top_k = top_k,
         temperature = temperature,
         huggingfacehub_api_token=api_token
     )
 
-    print(llm.invoke("What's the capital of Thailand?"))
+    chat_model = ChatHuggingFace(llm=llm)
 
     retriever = vector_db.as_retriever()
 
@@ -33,7 +32,7 @@ def initialize_llm_qa_chain(model: str, temperature: int, max_tokens: int, top_k
     )
 
     combine_docs_chain = create_stuff_documents_chain(
-        llm=llm,
+        llm=chat_model,
         prompt=rag_prompt
     )
 
