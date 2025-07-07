@@ -12,7 +12,7 @@ Question: {question}
 Context: {context}
 '''
 
-def initialize_llm(model: str, temperature: int, max_tokens: int, top_k: int, vector_db: Chroma, api_token: str) -> BaseConversationalRetrievalChain:
+def initialize_llm_qa_chain(model: str, temperature: int, max_tokens: int, top_k: int, vector_db: Chroma, api_token: str) -> BaseConversationalRetrievalChain:
     llm = HuggingFaceEndpoint(
         repo_id=model,
         max_new_tokens=max_tokens,

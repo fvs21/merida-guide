@@ -11,10 +11,26 @@ DB_LOCATION = "./chroma_db"
 ADD_DOCUMENTS = not os.path.exists(DB_LOCATION)
 MODEL_NAME = "meta-llama/Llama-3.2-3B-Instruct"
 
+def initialize_llm():
+    vector_db = vector.create_vector_database(DB_LOCATION)
+
+    if ADD_DOCUMENTS:
+        documents = vector.load_data()
+        vector_db.add_documents(documents)
+
+    global qa_chain
+    qa_chain = retrieval.initialize_llm_qa_chain(
+        model=MODEL_NAME,
+        temperature=0.7,
+        max_tokens=250,
+        top_k=0.9,
+        vector_db=vector_db,
+        api_token=HUGGING_FACE_TOKEN
+    )
+
 def respond(
     message,
-    history: list[tuple[str, str]],
-    qa_chain
+    history: list[tuple[str, str]]
 ):
     
     answer = retrieval.invoke_qa_chain(
@@ -26,25 +42,9 @@ def respond(
     return answer
 
 
-
 def gradio_ui():
-    vector_db = vector.create_vector_database(DB_LOCATION)
-
-    if ADD_DOCUMENTS:
-        documents = vector.load_data()
-        vector_db.add_documents(documents)
-
-    qa_chain = retrieval.initialize_llm(
-        model=MODEL_NAME,
-        temperature=0.7,
-        max_tokens=250,
-        top_k=0.9,
-        vector_db=vector_db,
-        api_token=HUGGING_FACE_TOKEN
-    )
-
     with gr.Blocks() as demo:
-        gr.ChatInterface(fn=respond, type="messages", additional_inputs=[qa_chain])
+        gr.ChatInterface(fn=respond, type="messages")
 
     demo.launch()
 
