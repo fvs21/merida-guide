@@ -43,6 +43,8 @@ def respond(
 
 
 def gradio_ui():
+    initialize_llm()
+
     with gr.Blocks() as demo:
         gr.ChatInterface(fn=respond, type="messages")
 
