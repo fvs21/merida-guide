@@ -33,7 +33,7 @@ def initialize_llm(model: str, temperature: int, max_tokens: int, top_k: int, ve
         retriever=retriever,
         chain_type="stuff",
         verbose=False,
-        combine_docs_chain_kwargs={"prompt", rag_prompt}
+        combine_docs_chain_kwargs={"prompt": rag_prompt}
     )
 
     return qa_chain
