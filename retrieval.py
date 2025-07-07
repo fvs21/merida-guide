@@ -14,9 +14,9 @@ Context: {context}
 
 def initialize_llm(model: str, temperature: int, max_tokens: int, top_k: int, vector_db: Chroma, api_token: str) -> BaseConversationalRetrievalChain:
     llm = HuggingFaceEndpoint(
-        endpoint_url=model,
+        repo_id=model,
         max_new_tokens=max_tokens,
-        top_k=top_k,
+        top_k=3,
         temperature=temperature,
         task="text-generation",
         huggingfacehub_api_token=api_token
