@@ -1,9 +1,10 @@
-huggingface_hub
+huggingface-hub==0.31.1
 gradio
 python-dotenv
-langchain
+langchain==0.3.25
+langchain-core==0.3.59
 langchain-chroma
-langchain-huggingface
-langchain-core
+langchain-huggingface==0.2.0
 langgraph 
 langsmith
+sentence-transformers
