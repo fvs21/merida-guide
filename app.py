@@ -6,7 +6,7 @@ import vector, retrieval
 
 load_dotenv()
 
-HUGGING_FACE_TOKEN = os.environ.get("HUGGING_FACE_TOKEN")
+HUGGING_FACE_TOKEN = os.environ.get("HUGGINGFACEHUB_API_TOKEN")
 DB_LOCATION = "./chroma_db"
 ADD_DOCUMENTS = not os.path.exists(DB_LOCATION)
 MODEL_NAME = "meta-llama/Llama-3.1-8B-Instruct"

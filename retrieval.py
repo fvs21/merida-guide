@@ -1,6 +1,6 @@
 from typing import List, Tuple
 from langchain_chroma import Chroma
-from langchain_huggingface import HuggingFaceEndpoint
+from langchain_huggingface import HuggingFacePipeline
 from langchain_core.prompts import PromptTemplate
 from langchain.chains.conversational_retrieval.base import ConversationalRetrievalChain, BaseConversationalRetrievalChain
 
@@ -13,12 +13,14 @@ Context: {context}
 '''
 
 def initialize_llm_qa_chain(model: str, temperature: int, max_tokens: int, top_k: int, vector_db: Chroma, api_token: str) -> BaseConversationalRetrievalChain:
-    llm = HuggingFaceEndpoint(
-        repo_id=model,
-        max_new_tokens=max_tokens,
-        top_k=top_k,
-        temperature=temperature,
-        huggingfacehub_api_token=api_token
+    llm = HuggingFacePipeline.from_model_id(
+        model_id=model,
+        task="text-generation",
+        pipeline_kwargs={
+            "max_new_tokens": max_tokens,
+            "top_k": top_k,
+            "temperature": temperature,
+        }
     )
 
     retriever = vector_db.as_retriever()
