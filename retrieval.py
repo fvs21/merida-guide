@@ -55,7 +55,7 @@ def invoke_qa_chain(qa_chain: Runnable, message: str, chat_history: List[Tuple[s
     formatted_chat_history = format_chat_history(chat_history)
 
     response = qa_chain.invoke(
-        {"question": message, "chat_history": formatted_chat_history}
+        {"input": message, "chat_history": formatted_chat_history}
     )
 
     answer = response["answer"]
