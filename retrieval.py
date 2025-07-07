@@ -17,12 +17,14 @@ Context: {context}
 def initialize_llm_qa_chain(model: str, temperature: int, max_tokens: int, top_k: int, vector_db: Chroma, api_token: str) -> Runnable:
     llm = HuggingFaceEndpoint(
         repo_id=model,
-        task="conversational",
+        task="text-generation",
         max_new_tokens = max_tokens,
         top_k = top_k,
         temperature = temperature,
         huggingfacehub_api_token=api_token
     )
+
+    print(llm.invoke("What's the capital of Thailand?"))
 
     retriever = vector_db.as_retriever()
 
