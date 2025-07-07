@@ -236,18 +236,19 @@ Chunk ID: 40
 For casual but high-quality dinners in Mérida, both Izakaya Sushi and Hey Joe are strong options. Izakaya offers a relaxed yet refined experience, while Hey Joe delivers hearty meals in a lively and informal setting. Both are popular with students and weekend diners.
 
 
-
 Section: Sweets
 Chunk ID: 41
 Tere Cazola is the heart of dessert culture in Mérida — a beloved local bakery famous for its cakes, pastries, and cheesecakes, often brought as gifts or enjoyed at family gatherings.
-
 
 
 Section: Sweets
 Chunk ID: 42
 Traditional Yucatecan desserts include marquesitas, which are crispy rolled wafers filled with Nutella, condensed milk, or cheese. These are commonly sold by street vendors in the evenings around parks and plazas. They're one of the most iconic street desserts in the region and a must-try for visitors.
 
+Section: Sweets
+Chunk ID: 43
+Cimonnis is another great option, popular among locals for its cozy atmosphere and sweet treats, making it a go-to spot after meals. Galletas DR is widely known for its artisanal cookies, often regarded as some of the best in Mérida — rich, handmade, and perfect for gifting or indulging.
 
 Section: Breakfast
-Chunk ID: 43
+Chunk ID: 44
 La Roka is a local breakfast spot in Mérida known for its hearty tortas filled with Yucatecan specialties like cochinita pibil and lechón. It’s a popular place for a savory, filling start to the day, especially among locals who enjoy traditional flavors in a casual setting. The portions are generous and the food is typically served fast, making it a convenient morning option.
