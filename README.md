@@ -9,4 +9,13 @@ app_file: app.py
 pinned: false
 ---
 
-An example chatbot using [Gradio](https://gradio.app), [`huggingface_hub`](https://huggingface.co/docs/huggingface_hub/v0.22.2/en/index), and the [Hugging Face Inference API](https://huggingface.co/docs/api-inference/index).
+Aim: An AI-powered tourist assistant for Mérida, Yucatán using Retrieval Augmented Generation and local data.
+
+# Architecture / Tech Stack
+
+* Frontend: Gradio
+* Backend: HuggingFace embeddings, HuggingFace Inference API, ChromaDB for vector database and LangChain
+
+# Overview
+
+Mérida Guide is an intelligent tourist assistant for Mérida, Yucatán, powered by a Retrieval-Augmented Generation (RAG) pipeline. It answers questions about food, transport, entertainment, and locations in the city using context-rich local data and Google Maps integration.
